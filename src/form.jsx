@@ -58,6 +58,7 @@ const Form = () => {
     return (
     <>
             <body>
+            <div id="wrapper">
             <div className="center">
                 <input type="checkbox" id="show"></input>
                 <label for="show" class="show-btn">Click Me to Unlock Your Potential</label>
@@ -119,6 +120,7 @@ const Form = () => {
 
                     </form>
                 </div>
+            </div>
             </div>
         </body>
     </>
