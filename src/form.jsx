@@ -77,20 +77,20 @@ const Form = () => {
 
 
                         <div className="data">
-                            <label>Full Name</label>
+                            <label>Full Name*</label>
                             <input type="text" onChange={handleName} required></input>
                         </div>
                         <div className="data">
-                            <label>Email or Phone</label>
+                            <label>Email or Phone*</label>
                             <input type="text" onChange={handleEmailOrPhone} required></input>
                         </div>
                         <div className="data">
-                            <label>Major</label>
+                            <label>Major*</label>
                             <input type="text" onChange={handleMajor} required></input>
                         </div>
 
                         <div className="data" > 
-                            <label>Availability (best day for meetings)</label>
+                            <label>Availability (best day for meetings)*</label>
                             
                         </div>
 
