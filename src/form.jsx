@@ -108,7 +108,7 @@ const Form = () => {
 
                         <div className="data">
                             <label>Questions/Comments</label>
-                            <input type="text" onChange={handleQuestionsOrComments} required></input>
+                            <input type="text" onChange={handleQuestionsOrComments} ></input>
                         </div>
                         
                         <div className="btn">
